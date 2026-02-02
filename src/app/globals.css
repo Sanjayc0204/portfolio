@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-@import "tw-animate-css";
+
+html {
+  scroll-behavior: auto;
+}
 
 @custom-variant dark (&:is(.dark *));
 

@@ -15,7 +15,7 @@ export function Navbar() {
     const pathname = usePathname();
 
     return (
-        <header className="flex flex-col gap-6 py-8">
+        <header className="flex flex-col gap-6 pt-8 pb-4">
             {/* Top row: Avatar + Name + Navigation */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
 
